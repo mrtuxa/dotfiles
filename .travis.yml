@@ -1,0 +1,6 @@
+jobs:
+  include:
+    - os: linux
+      arch: arm64
+      language: nix
+      script: cd rpi4 && bash build.sh
